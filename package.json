@@ -1,0 +1,36 @@
+{
+  "name": "dark-dust",
+  "displayName": "Dark Dust",
+  "description": "Dark Color Theme for Visual Studio Code",
+  "publisher": "snelusha",
+  "version": "1.0.0",
+  "license": "MIT",
+  "homepage": "https://github.com/SNelusha/dark-dust-vscode-theme",
+  "engines": {
+    "vscode": "^1.62.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "snelusha",
+    "sithija nelusha",
+    "dark",
+    "dark dust"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SNelusha/dark-dust-vscode-theme"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark Dust Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-dust-pro.json"
+      }
+    ]
+  },
+  "icon": "images/icon.png"
+}
